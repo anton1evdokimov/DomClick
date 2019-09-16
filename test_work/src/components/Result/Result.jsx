@@ -12,6 +12,7 @@ const Result = ({ questions }) => {
   let easy = questions.filter(q => q.difficulty === "easy");
   debugger
   return <div className={st.main}>
+    <h2>Result of Answers:</h2>
     <h3>Hard difficulty questions</h3>
     <ul>
       {hard.map(q => 

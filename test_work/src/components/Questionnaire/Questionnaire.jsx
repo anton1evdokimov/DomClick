@@ -57,13 +57,15 @@ const FormRadioBtn = ({ handleSubmit, number, question }) => {
   return <form onSubmit={handleSubmit} className={st.form}>
     <h3>Вопрос номер {number}</h3>
     <h3>{question.question}?</h3>
-    <div className={st.item}>
-      <label htmlFor="True" >True</label>
-      <Field name="True" component="input" type="radio" value="True" />
-    </div>
-    <div className={st.item}>
-      <label htmlFor="False" >False</label>
-      <Field name="False" component="input" type="radio" value="False" />
+    <div className={st.radioContent}>
+      <div className={st.item}>
+        <label htmlFor="True" >True</label>
+        <Field name="True" component="input" type="radio" value="True" />
+      </div>
+      <div className={st.item}>
+        <label htmlFor="False" >False</label>
+        <Field name="False" component="input" type="radio" value="False" />
+      </div>
     </div>
     <button type="submit">Далее</button>
   </form>
