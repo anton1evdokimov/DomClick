@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom'
 import store from '../src/store/store';
 import { Provider } from 'react-redux';
-import './App.css';
 import Questionnaire from './components/Questionnaire/Questionnaire';
 import Result from './components/Result/Result';
 import MainPage from './components/MainPage/MainPage';
