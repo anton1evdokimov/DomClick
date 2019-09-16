@@ -1,0 +1,28 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    padding: 0 20%;
+    height: 100vh;
+    background: linear-gradient(90deg, #81b241 0%, rgb(255, 166, 0) 100%);
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+  }
+  .item{
+      display: flex;
+      justify-content: space-between;
+      width: 300px;
+      padding: 12px 0;
+  }
+  [type="submit"]{
+      font-size: 18px;
+      border-radius: 9px;
+      padding: 12px;
+      cursor: pointer;
+      outline: none;
+  }
